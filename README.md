@@ -16,7 +16,7 @@ Master Terraform on AWS, from the basics to advanced use.
 
 - [x] Day 01: How Does Terraform Work
 - [x] Day 02: Terraform AWS Provider Explained
-- [ ] Day 03:
+- [x] Day 03: Create an S3 Bucket
 - [ ] Day 04:
 - [ ] Day 05:
 - [ ] Day 06:
