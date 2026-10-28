@@ -14,7 +14,7 @@ Master Terraform on AWS, from the basics to advanced use.
 
 ## Progress
 
-- [ ] Day 01:
+- [x] Day 01: How Does Terraform Work
 - [ ] Day 02:
 - [ ] Day 03:
 - [ ] Day 04:
