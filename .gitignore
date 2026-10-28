@@ -1,0 +1,36 @@
+# System / OS Files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Terraform
+**/.terraform/*
+
+*.tfstate
+*.tfstate.*
+
+*.tfvars
+*.tfvars.json
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+crash.log
+crash.*.log
+
+.terraformrc
+terraform.rc
+
+*.tfplan
+
+# AWS
+.aws/
+.elasticbeanstalk/
+.aws-sam/
+*.pem
