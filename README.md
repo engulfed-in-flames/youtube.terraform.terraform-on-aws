@@ -19,7 +19,7 @@ Master Terraform on AWS, from the basics to advanced use.
 - [x] Day 03: Create an S3 Bucket
 - [x] Day 04: Terraform State File Management with S3
 - [x] Day 05: Terraform Variables in AWS
-- [ ] Day 06:
+- [x] Day 06: AWS Terraform Project Structure Best Practices
 - [ ] Day 07:
 - [ ] Day 08:
 - [ ] Day 09:
