@@ -20,7 +20,7 @@ Master Terraform on AWS, from the basics to advanced use.
 - [x] Day 04: Terraform State File Management with S3
 - [x] Day 05: Terraform Variables in AWS
 - [x] Day 06: AWS Terraform Project Structure Best Practices
-- [ ] Day 07:
+- [x] Day 07: AWS Terraform Type Constraints Explained
 - [ ] Day 08:
 - [ ] Day 09:
 - [ ] Day 10:
