@@ -21,7 +21,7 @@ Master Terraform on AWS, from the basics to advanced use.
 - [x] Day 05: Terraform Variables in AWS
 - [x] Day 06: AWS Terraform Project Structure Best Practices
 - [x] Day 07: AWS Terraform Type Constraints Explained
-- [ ] Day 08:
+- [x] Day 08: AWS Terraform Meta Arguments Explained
 - [ ] Day 09:
 - [ ] Day 10:
 - [ ] Day 11:
