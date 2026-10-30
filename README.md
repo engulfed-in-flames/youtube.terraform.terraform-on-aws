@@ -23,7 +23,7 @@ Master Terraform on AWS, from the basics to advanced use.
 - [x] Day 07: AWS Terraform Type Constraints Explained
 - [x] Day 08: AWS Terraform Meta Arguments Explained
 - [x] Day 09: AWS Terraform Lifecycle Rules Explained
-- [ ] Day 10:
+- [x] Day 10: AWS Terraform Conditional Expressions, Splat Expressions and Dynamic Block
 - [ ] Day 11:
 - [ ] Day 12:
 - [ ] Day 13:
