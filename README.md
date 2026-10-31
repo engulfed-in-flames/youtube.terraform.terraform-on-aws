@@ -24,8 +24,8 @@ Master Terraform on AWS, from the basics to advanced use.
 - [x] Day 08: AWS Terraform Meta Arguments Explained
 - [x] Day 09: AWS Terraform Lifecycle Rules Explained
 - [x] Day 10: AWS Terraform Conditional Expressions, Splat Expressions and Dynamic Block
-- [ ] Day 11:
-- [ ] Day 12:
+- [x] Day 11: AWS Terraform Functions 1
+- [x] Day 12: AWS Terraform Functions 2
 - [ ] Day 13:
 - [ ] Day 14:
 - [ ] Day 15:
