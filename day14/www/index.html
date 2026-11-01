@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terraform S3 + CloudFront Demo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Hello from S3 + CloudFront</h1>
+    <p class="subtitle">A static site deployed with Terraform</p>
+    <button id="theme-toggle" class="btn btn-ghost" type="button" aria-label="Toggle dark mode">Toggle theme</button>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Delivery info</h2>
+      <p class="hint">Read from this page's own HTTP response headers.</p>
+      <dl class="info-grid">
+        <dt>Served via CloudFront</dt><dd id="cf-status">checking…</dd>
+        <dt>Cache result (X-Cache)</dt><dd id="cf-cache">–</dd>
+        <dt>Edge location (POP)</dt><dd id="cf-pop">–</dd>
+        <dt>Object age (seconds)</dt><dd id="cf-age">–</dd>
+      </dl>
+      <button id="refresh-info" class="btn" type="button">Re-check headers</button>
+    </section>
+
+    <section class="card">
+      <h2>Client-side JavaScript</h2>
+      <p>Current time: <strong id="clock">--:--:--</strong></p>
+      <p>Button clicks: <strong id="counter">0</strong></p>
+      <button id="click-btn" class="btn" type="button">Click me</button>
+    </section>
+
+    <section class="card">
+      <h2>Architecture</h2>
+      <ol class="flow">
+        <li>Browser</li>
+        <li>CloudFront distribution (HTTPS, caching)</li>
+        <li>Origin Access Control</li>
+        <li>Private S3 bucket</li>
+      </ol>
+      <p><a href="does-not-exist.html">Visit a missing page</a> to test the custom error page.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Version <span id="version">1.0.0</span> · Deployed with Terraform</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
