@@ -28,7 +28,7 @@ Master Terraform on AWS, from the basics to advanced use.
 - [x] Day 12: AWS Terraform Functions 2
 - [x] Day 13: AWS Terraform Data Source Explained
 - [x] Day 14: Host a Static Website In AWS S3 and CloudFront
-- [ ] Day 15:
+- [x] Day 15: VPC Peering
 - [ ] Day 16:
 - [ ] Day 17:
 - [ ] Day 18:
